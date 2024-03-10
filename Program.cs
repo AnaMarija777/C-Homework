@@ -1,82 +1,94 @@
-﻿
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
 
-//Console.WriteLine("Hello, World!");
+#region BasicYearCalc
+static void main()
+{
+    Console.WriteLine("Vnesi godina vo koja si roden: ");
+    int birthyear = int.Parse(Console.ReadLine());
+    DateTime dateTime = DateTime.Now;
+    int novagod = dateTime.Year - birthyear;
+    Console.WriteLine("Imate " + novagod + " Godini");
+}
 
+main();
+#endregion
 
+#region ageCalc Without method
+Console.WriteLine("Todays date is " + DateTime.Now.ToLongDateString());
+Console.WriteLine("Enter your birthdate (MM/dd/yyyy):");
+DateTime inputBirthdate = DateTime.Parse(Console.ReadLine());
 
-//Console.WriteLine("===== RACE =====");
+DateTime currentDate = DateTime.Now;
+int age = currentDate.Year - inputBirthdate.Year;
 
+if (currentDate.Month < inputBirthdate.Month || (currentDate.Month == inputBirthdate.Month && currentDate.Day < inputBirthdate.Day))
+{
+    age--;
+    Console.WriteLine(age);
+}
+else
+{
+    Console.WriteLine("Your age is: " + age);
+}
+#endregion
 
-//Driver bob = new Driver("Bob", 7);
-//Driver greg = new Driver("Greg", 3);
-//Driver jill = new Driver("Jill", 5);
-//Driver anne = new Driver("Anne", 9);
+#region AgeCalc with VOID method
 
-//Driver[] availableDrivers = { bob, greg, jill, anne };
+static void Agecalc()
+{
+    Console.WriteLine("When were you born?: (mm/dd/yyyy)");
+    DateTime inputBirthdate = DateTime.Parse(Console.ReadLine());
 
-//Console.WriteLine("Please choose your driver for the first car: (Bob/Greg/Jill/Anne)");
-//string firstDriver = Console.ReadLine();
-//Console.WriteLine("Please choose your driver for the second car: (Bob/Greg/Jill/Anne)");
-//string secondDriver = Console.ReadLine();
+    DateTime currentDate = DateTime.Now;
+    int ageCalculator = currentDate.Year - inputBirthdate.Year;
 
-//Driver? selectedFirstDriver = null;
-//Driver? selectedSecondDriver = null;
+    if (currentDate.Month < inputBirthdate.Month || (currentDate.Month == inputBirthdate.Month && currentDate.Day < inputBirthdate.Day))
+    {
+        ageCalculator--;
+        Console.WriteLine(ageCalculator);
+    }
+    else
+    {
+        Console.WriteLine(ageCalculator);
+    }
+}
 
-//foreach (Driver driver in availableDrivers)
-//{
-//    if (firstDriver?.ToLower() == driver.Name.ToLower())
-//    {
-//        selectedFirstDriver = driver;
-//    }
-//    else
-//    if (secondDriver?.ToLower() == driver.Name.ToLower())
-//    {
-//        selectedSecondDriver = driver;
-//    }
+Agecalc();
 
-//}
-////////////////////////////////////////////////
-////////////////////////////////////////////////
+#endregion
 
-//Car hyundai = new Car("Hyundai", 3);
-//Car mazda = new Car("Mazda", 5);
-//Car ferrari = new Car("Ferrari", 6);
-//Car porsche = new Car("Porsche", 9);
+#region AgeCalc with input Parameter
+Console.WriteLine("Todays date is " + DateTime.Now.ToLongDateString());
+static int AgeCalculator(DateTime birthdate)
+{
+    DateTime currentDate = DateTime.Now;
+    int age = currentDate.Year - birthdate.Year;
 
-//Car[] availableCars = { hyundai, mazda, ferrari, porsche };
+    if (currentDate.Month < birthdate.Month || (currentDate.Month == birthdate.Month && currentDate.Day < birthdate.Day))
+    {
+        age--;
+        return age;
+    }
 
-//Console.WriteLine("Please choose your car for the first car: (Hyundai/Mazda/Ferrari/Porsche)");
-//string firstCarModel = Console.ReadLine();
-//Console.WriteLine("Please choose your car for the second car: (Hyundai/Mazda/Ferrari/Porsche)");
-//string secondCarModel = Console.ReadLine();
+    return age;
+}
+static void Main()
+{
+    Console.WriteLine("Please enter your birthdate in the format MM/dd/yyyy:");
+    string birthdateInput = Console.ReadLine();
 
-//Car? selectedFirstCar = null;
-//Car? selectedSecondCar = null;
+    DateTime inputBirthdate;
+    if (DateTime.TryParse(birthdateInput, out inputBirthdate))
+    {
+        int age = AgeCalculator(inputBirthdate);
+        Console.WriteLine("Your age is: " + age);
+    }
+    else
+    {
+        Console.WriteLine("Invalid birthdate format. Please try again.");
+    }
+}
+Main();
 
-//foreach (Car car in availableCars)
-//{
-//    if (firstCarModel?.ToLower() == car.Model.ToLower())
-//    {
-//        selectedFirstCar = car;
-//    }
-//    else
-//    if (secondCarModel?.ToLower() == car.Model.ToLower())
-//    {
-//        selectedSecondCar = car;
-//    }
-//}
-
-////////////////////////////////////////////////
-////////////////////////////////////////////////
-
-//if (selectedFirstCar == null || selectedSecondCar == null || selectedFirstDriver == null || selectedSecondDriver == null)
-//{
-//    Console.WriteLine("You have selected invalid car or driver or duplicate car or driver!!");
-//    return;
-//}
-
-
-//selectedFirstCar!.Driver = selectedFirstDriver;
-//selectedSecondCar!.Driver = selectedSecondDriver;
-
-//Car.RaceCars(selectedFirstCar, selectedSecondCar);
+#endregion
