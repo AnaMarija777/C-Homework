@@ -1,0 +1,5 @@
+/Users/anamarija/Desktop/csharp/vezbi1/cas3/obj/Debug/net6.0/cas3.csproj.AssemblyReference.cache
+/Users/anamarija/Desktop/csharp/vezbi1/cas3/obj/Debug/net6.0/cas3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anamarija/Desktop/csharp/vezbi1/cas3/obj/Debug/net6.0/cas3.AssemblyInfoInputs.cache
+/Users/anamarija/Desktop/csharp/vezbi1/cas3/obj/Debug/net6.0/cas3.AssemblyInfo.cs
+/Users/anamarija/Desktop/csharp/vezbi1/cas3/obj/Debug/net6.0/cas3.csproj.CoreCompileInputs.cache

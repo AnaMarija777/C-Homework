@@ -1,0 +1,15 @@
+/Users/anamarija/Desktop/csharp/vezbi1/exe2/bin/Debug/net6.0/Loops
+/Users/anamarija/Desktop/csharp/vezbi1/exe2/bin/Debug/net6.0/Loops.deps.json
+/Users/anamarija/Desktop/csharp/vezbi1/exe2/bin/Debug/net6.0/Loops.runtimeconfig.json
+/Users/anamarija/Desktop/csharp/vezbi1/exe2/bin/Debug/net6.0/Loops.dll
+/Users/anamarija/Desktop/csharp/vezbi1/exe2/bin/Debug/net6.0/Loops.pdb
+/Users/anamarija/Desktop/csharp/vezbi1/exe2/obj/Debug/net6.0/Loops.csproj.AssemblyReference.cache
+/Users/anamarija/Desktop/csharp/vezbi1/exe2/obj/Debug/net6.0/Loops.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anamarija/Desktop/csharp/vezbi1/exe2/obj/Debug/net6.0/Loops.AssemblyInfoInputs.cache
+/Users/anamarija/Desktop/csharp/vezbi1/exe2/obj/Debug/net6.0/Loops.AssemblyInfo.cs
+/Users/anamarija/Desktop/csharp/vezbi1/exe2/obj/Debug/net6.0/Loops.csproj.CoreCompileInputs.cache
+/Users/anamarija/Desktop/csharp/vezbi1/exe2/obj/Debug/net6.0/Loops.dll
+/Users/anamarija/Desktop/csharp/vezbi1/exe2/obj/Debug/net6.0/refint/Loops.dll
+/Users/anamarija/Desktop/csharp/vezbi1/exe2/obj/Debug/net6.0/Loops.pdb
+/Users/anamarija/Desktop/csharp/vezbi1/exe2/obj/Debug/net6.0/Loops.genruntimeconfig.cache
+/Users/anamarija/Desktop/csharp/vezbi1/exe2/obj/Debug/net6.0/ref/Loops.dll
