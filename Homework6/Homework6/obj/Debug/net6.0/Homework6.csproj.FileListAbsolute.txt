@@ -1,0 +1,5 @@
+/Users/anamarija/Desktop/cs homeworks/Homework6/Homework6/obj/Debug/net6.0/Homework6.csproj.AssemblyReference.cache
+/Users/anamarija/Desktop/cs homeworks/Homework6/Homework6/obj/Debug/net6.0/Homework6.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anamarija/Desktop/cs homeworks/Homework6/Homework6/obj/Debug/net6.0/Homework6.AssemblyInfoInputs.cache
+/Users/anamarija/Desktop/cs homeworks/Homework6/Homework6/obj/Debug/net6.0/Homework6.AssemblyInfo.cs
+/Users/anamarija/Desktop/cs homeworks/Homework6/Homework6/obj/Debug/net6.0/Homework6.csproj.CoreCompileInputs.cache
