@@ -1,0 +1,15 @@
+/Users/anamarija/Desktop/domasni csharp/LINQ homework/LINQ homework/bin/Debug/net6.0/LINQ homework
+/Users/anamarija/Desktop/domasni csharp/LINQ homework/LINQ homework/bin/Debug/net6.0/LINQ homework.deps.json
+/Users/anamarija/Desktop/domasni csharp/LINQ homework/LINQ homework/bin/Debug/net6.0/LINQ homework.runtimeconfig.json
+/Users/anamarija/Desktop/domasni csharp/LINQ homework/LINQ homework/bin/Debug/net6.0/LINQ homework.dll
+/Users/anamarija/Desktop/domasni csharp/LINQ homework/LINQ homework/bin/Debug/net6.0/LINQ homework.pdb
+/Users/anamarija/Desktop/domasni csharp/LINQ homework/LINQ homework/obj/Debug/net6.0/LINQ homework.csproj.AssemblyReference.cache
+/Users/anamarija/Desktop/domasni csharp/LINQ homework/LINQ homework/obj/Debug/net6.0/LINQ homework.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anamarija/Desktop/domasni csharp/LINQ homework/LINQ homework/obj/Debug/net6.0/LINQ homework.AssemblyInfoInputs.cache
+/Users/anamarija/Desktop/domasni csharp/LINQ homework/LINQ homework/obj/Debug/net6.0/LINQ homework.AssemblyInfo.cs
+/Users/anamarija/Desktop/domasni csharp/LINQ homework/LINQ homework/obj/Debug/net6.0/LINQ homework.csproj.CoreCompileInputs.cache
+/Users/anamarija/Desktop/domasni csharp/LINQ homework/LINQ homework/obj/Debug/net6.0/LINQ homework.dll
+/Users/anamarija/Desktop/domasni csharp/LINQ homework/LINQ homework/obj/Debug/net6.0/refint/LINQ homework.dll
+/Users/anamarija/Desktop/domasni csharp/LINQ homework/LINQ homework/obj/Debug/net6.0/LINQ homework.pdb
+/Users/anamarija/Desktop/domasni csharp/LINQ homework/LINQ homework/obj/Debug/net6.0/LINQ homework.genruntimeconfig.cache
+/Users/anamarija/Desktop/domasni csharp/LINQ homework/LINQ homework/obj/Debug/net6.0/ref/LINQ homework.dll
